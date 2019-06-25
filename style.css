@@ -5,6 +5,8 @@
 	margin: 0;
 	padding: 0;
 }
+
+
 /*----------Navigation------*/
 #nav-bar
 {
@@ -109,7 +111,7 @@
 /*-----Service------*/
 #services
 {
-	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/services.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1489769002049-ccd828976a6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1514&q=80);
 	background-size: cover;
 	background-position: center;
 	color: #efefef !important;
@@ -242,5 +244,194 @@ h1::after
 }
 .img-box ul, img-box ul li
 {
+	transition: 0.5s;
+}
+
+/*-----PROMO-----*/
+#promo
+{
+	background-image: linear-gradient(rgba(0,0,0.7),rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1495006859154-adede8b6421f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1529&q=80);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: "sans-serif";
+	font-size: 38px;
+	
+}
+
+/*------Price Plans-----*/
+#price
+{
+	padding: 40px 0;
+	background: #efefef;
+	
+}
+.single-price
+{
+	margin: 10px auto;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	transition: 0.5s;
+}
+.single-price:hover
+{
+	box-shadow: 0 0.5px 15px #333;
+}
+.price-head
+{
+	background-color: #2196f3;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head h2
+{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.price-head p
+{
+	font-size: 25px;
+	color: #ccc;
+	font-weight: bold;
+	line-height: 30px;
+}
+#price span
+{
+	font-size: 15px;
+}
+.price-content
+{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 15px ;
+}
+.price-content ul li
+{
+	border-bottom: 1px solid #efefef;
+	padding: 15px 15px;
+	list-style: none;
+}
+ul li:last-child
+{
+	border: none;
+}
+.fa-check-circle
+{
+	color: green;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.price-button
+{
+	display: inline;
+	float: left;
+	padding: 15px 15px 30px;
+	text-align: center;
+	width: 100%;
+}
+.buy-btn
+{
+	background-color: #2196f3;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px 50px;
+	transition: 0.5s;
+}
+.buy-btn:hover{
+	border-color: 1px soild #fff;
+	background-color: #3f51b5;
+}
+a
+{
+	text-decoration: none!important;
+	color: #fff!important;
+}
+/*------Testimonials-----*/
+#testimonials
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#testimonials .row
+{
+	margin-top: 30px;
+}
+.col-md-6
+{
+	margin: 40px auto;
+}
+.profile
+{
+	padding: 70px 10px 10px;
+	background-color: #efefef;
+}
+.user
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 60%;
+}
+
+.profile img
+{
+	top: -60px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border: 10px solid #fff;
+}
+.profile h3
+{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #007bff;
+}
+#testimonials span
+{
+	font-size: 12px;
+	color: #333;
+}
+blockquote
+{
+	font-size: 16px;
+	line-height: 30px;
+}
+blockquote::before
+{
+	content: '\93';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+}
+blockquote::after
+{
+	content: '\94';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 10px;
+	bottom: -15px;
+	right: 5px;
+}
+.profile:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
 	transition: 0.5s;
 }
