@@ -435,3 +435,26 @@ blockquote::after
 	cursor: pointer;
 	transition: 0.5s;
 }
+
+/*------Get in touch-----*/
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+	
+}
