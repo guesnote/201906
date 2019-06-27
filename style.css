@@ -458,3 +458,21 @@ blockquote::after
 	color: #999 !important;
 	
 }
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+/*-----Footer----*/
+#footer
+{
+	background: #282828;
+	color: dimgray;
+	padding: 12px;
+}
+.fa-paper-plane
+{
+	margin: 3px;
+	color: antiquewhite;
+}
